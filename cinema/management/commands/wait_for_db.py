@@ -1,5 +1,5 @@
 import sys
-from sqlite3 import OperationalError
+from django.db import OperationalError
 
 from django.db import connections
 from django.core.management.base import BaseCommand
